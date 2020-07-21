@@ -20,6 +20,18 @@
 
 .body {
   background-color: #e9e9eb;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 10px 8px;
+}
+
+.sent-message {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+  margin: 5px;
+}
+
+.sent-message .body {
+  background-color: #1185f7;
+  color: white;
 }
